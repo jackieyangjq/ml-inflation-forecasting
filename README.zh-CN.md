@@ -2,7 +2,7 @@
 
 [English](README.md) | **简体中文**
 
-[![CI](https://github.com/jackieyangjq/ml-inflation-forecasting/actions/workflows/ci.yml/badge.svg)](https://github.com/jackieyangjq/ml-inflation-forecasting/actions/workflows/ci.yml)
+[![CI](https://github.com/jackyyangjq/ml-inflation-forecasting/actions/workflows/ci.yml/badge.svg)](https://github.com/jackyyangjq/ml-inflation-forecasting/actions/workflows/ci.yml)
 
 机器学习预测美国通胀，能比简单的自回归模型更准吗？本仓库用 Python 和最新的 FRED-MD 数据，复现了 Medeiros、Vasconcelos、Veiga 和 Zilberman（2021）发表在 *Journal of Business & Economic Statistics* 上的论文《Forecasting Inflation in a Data-Rich Environment: The Benefits of Machine Learning Methods》的实验设计，并做了两点扩展：检验期延长到 2026 年 7 月，覆盖疫情和 2021–2023 年的通胀飙升；树模型和 LASSO 的每一次预测都附带 SHAP 分解，说明是哪几类指标在推动预测。
 

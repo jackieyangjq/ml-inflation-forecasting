@@ -2,7 +2,7 @@
 
 **English** | [简体中文](README.zh-CN.md)
 
-[![CI](https://github.com/jackieyangjq/ml-inflation-forecasting/actions/workflows/ci.yml/badge.svg)](https://github.com/jackieyangjq/ml-inflation-forecasting/actions/workflows/ci.yml)
+[![CI](https://github.com/jackyyangjq/ml-inflation-forecasting/actions/workflows/ci.yml/badge.svg)](https://github.com/jackyyangjq/ml-inflation-forecasting/actions/workflows/ci.yml)
 
 Can machine learning forecast US inflation better than a simple autoregression? This repository replicates the design of Medeiros, Vasconcelos, Veiga and Zilberman (2021), "Forecasting Inflation in a Data-Rich Environment: The Benefits of Machine Learning Methods" (*Journal of Business & Economic Statistics*), in Python on the latest FRED-MD data, and extends it in two ways: the evaluation runs to July 2026, through the pandemic and the 2021-2023 inflation surge, and every forecast of the tree models and the LASSO comes with a SHAP breakdown of which groups of series drove it.
 
